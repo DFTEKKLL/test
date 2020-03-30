@@ -42,7 +42,7 @@ public class ThreadPoolExecutorServiceImpl implements ThreadPoolExecutorService 
         });
         long l1 = System.currentTimeMillis();
         System.out.println((l1 - l));
-        log.info("运行时间",l1 - l);
+        log.info("运行时间:{}",l1 - l);
         return null;
     }
 }
